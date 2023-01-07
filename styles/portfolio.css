@@ -142,13 +142,6 @@ header {
     gap: 83px;
 }
 
-.blog_one_left {
-    /* font-weight: 400;
-    font-size: 16px;
-    line-height: 26px;
-    color: #444343; */
-}
-
 .blog_one_left h2 {
     font-weight: 700;
     font-size: 42px;
@@ -159,10 +152,6 @@ header {
     width: 482px;
     margin: 20px 0;
 }
-
-.blog_one_left button {}
-
-.blog_img {}
 
 .blog_img img {
     width: 572px;
