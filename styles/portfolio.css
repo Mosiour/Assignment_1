@@ -5,7 +5,7 @@
 }
 
 header {
-    background-image: url('/images/banner/banner2.png');
+    background-image: url('./images/banner/banner2.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -163,7 +163,7 @@ header {
     margin: auto;
     padding: 76px 190px;
     position: relative;
-    background-image: url('/images/watch.png'), linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%);
+    background-image: url('./images/watch.png'), linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
