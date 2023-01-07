@@ -5,20 +5,19 @@
 }
 
 header {
-    background: rgb(155, 151, 151);
-    background-image: url('/images/banner/banner1.png');
+    background-image: url('/images/banner/banner2.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     background-blend-mode: multiply;
-    min-height: 80vh;
+    min-height: 90vh;
     position: relative;
 }
 
 .banner_center_content {
     position: absolute;
     top: 50%;
-    left: 50%;
+    right: 8%;
     transform: translate(-50%, -50%);
     text-align: center;
 }
@@ -38,17 +37,21 @@ header {
     font-size: 16px;
     line-height: 26px;
     text-align: right;
-    color: #444343;
+    color: #151414;
 }
 
 .primary_btn {
     padding: 16px 20px;
     background: #F15B22;
-    border-radius: 5px;
+    border-radius: 10px;
     color: #ffffff;
     font-weight: 600;
     font-size: 20px;
     border: none;
+}
+
+.banner_center_content .primary_btn {
+    right: 20%;
 }
 
 .section_title {
@@ -139,7 +142,12 @@ header {
     gap: 83px;
 }
 
-.blog_one_left {}
+.blog_one_left {
+    /* font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343; */
+}
 
 .blog_one_left h2 {
     font-weight: 700;
@@ -165,7 +173,12 @@ header {
     height: 200px;
     margin: auto;
     padding: 76px 190px;
-    background: #fff4d6;
+    position: relative;
+    background-image: url('/images/watch.png'), linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: multiply;
     position: relative;
 }
 
@@ -181,20 +194,60 @@ header {
     height: 48px;
 }
 
-.email_border input::placeholder {
-    padding-left: 17px;
+.updates .email_border p {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF;
 }
 
-.updates {
-    position: relative;
+footer {
+    background: #0b0d17;
+    margin-top: 130px;
 }
 
-.email_border .primary_btn {
-    position: absolute;
-    top: 43%;
-    left: 54%;
-    width: 157px;
-    padding: 0;
-    padding: 10px;
-    border-radius: 0;
+.footer_ending {
+    text-align: center;
+}
+
+.footer_ending img {
+    width: 158px;
+    margin-top: 43px;
+    margin-bottom: 24px;
+}
+
+.footer_ending p {
+    color: #d9dbe1;
+    padding-bottom: 24px;
+}
+
+
+/* contact styles */
+
+.contact {
+    display: flex;
+    gap: 400px;
+    background: #151414;
+    padding: 130px 200px;
+    color: #F8F8F8;
+}
+
+.contact .section-title {
+    text-align: left;
+}
+
+.contact input[type="text"],
+input[type="email"] {
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 18px 30px;
+}
+
+input {
+    height: 60px;
+}
+
+.contact a {
+    text-decoration: none;
 }
